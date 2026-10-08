@@ -1,0 +1,27 @@
+HEALTH PROJECT - BACKEND START
+
+1. Open this folder in VS Code.
+2. Open Terminal in this folder.
+3. If PowerShell blocks npm, use:
+   npm.cmd install
+4. Start the backend:
+   npm.cmd start
+5. Open:
+   http://localhost:3000
+6. Test the backend directly:
+   http://localhost:3000/api/health
+
+Expected API response contains:
+"success": true
+and
+"Naturals backend is running"
+
+IMPORTANT:
+Do not double-click index.html when testing the backend. Open it through
+http://localhost:3000 so the frontend and backend use the same server.
+
+Login page:
+http://localhost:3000/login.html
+
+Register page:
+http://localhost:3000/register.html
